@@ -10,4 +10,4 @@ all: $(OBJ)
 	gcc -o fastboot $^ $(CFLAGS) $(LDLIBS)
 
 clean: 
-	rm *.o fastboot
+	rm -f *.o fastboot
